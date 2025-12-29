@@ -15,35 +15,32 @@ const CreateHero = () => {
         </div>
         
         <h1 className="hero-title fade-in" style={{ animationDelay: '0.4s' }}>
-          <span className="block text-white">Cetak Ide Anda</span>
-          <span className="gold-text">Menjadi Nyata</span>
+          <span className="block text-white">Cetak Sempurna,</span>
+          <span className="gold-text">Bisnis Meroket</span>
         </h1>
 
         {/* Feature Badge */}
         <div className="hero-badge fade-in" style={{ animationDelay: '0.5s' }}>
            <Truck size={20} className="text-gold" />
-           <span>Layanan Antar Jemput Tersedia</span>
+           <span>Terima Beres: Pesan Online, Kami Antar!</span>
         </div>
         
         <p className="hero-subtitle fade-in" style={{ animationDelay: '0.6s' }}>
-          Layanan percetakan premium di Bontang dengan kualitas tak tertandingi. 
-          Cetak dari rumah, kami antar sampai depan pintu.
+          Solusi percetakan #1 di Bontang. Kualitas premium, cepat, dan tanpa ribet. 
+          Fokus pada bisnis Anda, biarkan kami mengurus citra visualnya.
         </p>
         
         <div className="hero-actions fade-in" style={{ animationDelay: '0.8s' }}>
           <a href="#contact" className="btn-primary">
-            Pesan Sekarang <ArrowRight size={20} />
+            Konsultasi Gratis <ArrowRight size={20} />
           </a>
           <a href="#prices" className="btn-secondary">
-            <Star size={16} className="text-gold" /> Lihat Harga
+            <Star size={16} className="text-gold" /> Lihat Paket Hemat
           </a>
         </div>
       </div>
       
-      {/* Scroll Indicator */}
-      <div className="scroll-indicator">
-        <span>Scroll</span>
-      </div>
+
     </section>
   );
 };

@@ -3,20 +3,20 @@ import { Truck, Award, Zap } from 'lucide-react';
 const benefits = [
   {
     icon: <Truck size={40} />,
-    title: 'Siap Antar Jemput',
-    description: 'Tidak perlu repot keluar rumah. Kirim file Anda, kami cetak, dan kami antar langsung ke depan pintu Anda.',
+    title: 'Hemat Waktu & Tenaga',
+    description: 'Stop buang waktu di jalan! Cukup kirim file dari HP/Laptop, kami produksi, dan kurir kami antar langsung ke lokasi Anda.',
     highlight: true,
   },
   {
     icon: <Award size={40} />,
-    title: 'Kualitas Premium',
-    description: 'Kami hanya menggunakan mesin terbaru dan bahan terbaik untuk memastikan hasil cetak yang tajam dan tahan lama.',
+    title: 'Kualitas Aset Bisnis',
+    description: 'Kami menggunakan tinta original dan bahan grade-A. Hasil cetak tidak hanya tajam, tapi juga awet dan meningkatkan citra profesional Anda.',
     highlight: false,
   },
   {
     icon: <Zap size={40} />,
-    title: 'Pengerjaan Kilat',
-    description: 'Deadline mepet? Tenang, tim kami bekerja cepat tanpa mengurangi kualitas hasil akhir.',
+    title: 'Selesai Tepat Waktu',
+    description: 'Deadline mepet? Jangan panik. Sistem produksi kami teroptimasi untuk kecepatan tanpa mengorbankan detail sedikitpun.',
     highlight: false,
   },
 ];
